@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"  xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>Alex Tighe's Clips</title>
+    <link>https://tighebrary.io</link>
+    <description>Hi, I make audio and I code. I built this podcast feed from scratch to showcase some podcast clips I've made and am proud of.</description>
+    <language>en</language>
+    <image>
+      <url>https://tighebrary.io/images/Alex-Tighe.png</url>
+      <title>Alex Tighe's Clips</title>
+      <link>https://tighebrary.io</link>
+    </image>
+    <itunes:category text="Society &amp; Culture"> <itunes:category text="Personal Journals" /></itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:author>Alex Tighe</itunes:audio>
+    <itunes:image>https://tighebrary.io/images/Alex-Tighe.png</itunes:image>
+
+    <item>
+      <title>Left Right Out calls Emily</title>
+      <description>Here's a clip from the #1 election podcast we made for Spotify. I've clipped a sequence from our final episode, which was a call-in episode: I arranged for some of our superfans to be available to take calls from the hosts, Elfy and Justine, to celebrate the show's run. This clip is heavily edited, although I hope you can't tell, and it's the best way I have of conveying the impact and popularity of a show we made from scratch.</description>
+      <pubDate>Wed, 09 Oct 2024 19:00:00 GMT</pubDate>
+      <enclosure url="https://tighebrary.io/audio/Left-Right-Out-calls-Emily.mp3" length="7239744" type="audio/mpeg" />
+      <guid>b99e0ef0-3e02-4dc3-a8dd-483d40f8ffb0</guid>
+    </item>
+    
+  </channel>
+</rss>
