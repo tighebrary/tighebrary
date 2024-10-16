@@ -48,6 +48,9 @@
       .social-icon-link:hover {
         color: black;
       }
+      footer {
+        padding-bottom: 50px;
+      }
     </style>
   </head>
   <body>
@@ -85,7 +88,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <script> // For taking the color of text, giving it that background, an
+    <script> // For taking the color of text, giving it that color background, and turning text white
       document.querySelectorAll('.dynamic-link').forEach(link => {
           link.addEventListener('mouseenter', function() {
               const initialColor = window.getComputedStyle(this).color;
