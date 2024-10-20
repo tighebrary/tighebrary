@@ -1,27 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"  xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
-    <title>Alex Tighe's Clips</title>
+    <title>Alex Tighe's Demo Clips</title>
     <link>https://tighebrary.io</link>
-    <description>Hi, I make audio and I code. I built this podcast feed from scratch to showcase some podcast clips I've made and am proud of.</description>
+    <description>Hi, I make audio and I code. I built this podcast feed from scratch to showcase some podcast clips I've made and am proud of. 
+    
+    The audio on this feed is normalised to -18 LUFS.</description>
     <language>en</language>
     <image>
-      <url>https://tighebrary.io/images/Alex-Tighe.png</url>
-      <title>Alex Tighe's Clips</title>
+      <url>https://tighebrary.io/images/alex-tighe-podcast-artwork.png</url>
+      <title>Alex Tighe's Demo Clips</title>
       <link>https://tighebrary.io</link>
     </image>
     <itunes:category text="Society &amp; Culture"> <itunes:category text="Personal Journals" /></itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:author>Alex Tighe</itunes:author>
-    <itunes:image>https://tighebrary.io/images/Alex-Tighe.png</itunes:image>
+    <itunes:image>https://tighebrary.io/images/alex-tighe-podcast-artwork.png</itunes:image>
+
+    <item>
+      <title>7am: When Hindenburg crashed into Adani</title>
+      <description>The 7am podcast is Australia's equivalent of NYT's The Daily – each episode is a deeply reported and produced narrative that brings the news to life. I was the Supervising Producer of 7am and the sole producer of this episode, which tells the story of the Adani Group: its rise, its entanglement in Indian politics, and the fallout when Hindenburg Research named the group "The Largest Con In Corporate History". I had heaps of fun making this episode: over a day-and-a-half I directed the interview, sourced all the tape myself, scored the entire episode, and edited the final assembly.</description>
+      <pubDate>Wed, 09 Oct 2024 18:00:00 GMT</pubDate>
+      <enclosure url="https://tighebrary.io/audio/7am-podcast-Adani-Group.mp3" length="29505600" type="audio/mpeg" />
+      <guid>007b342e-d49e-4200-8bbc-2ab20767bfe7</guid>
+      <itunes:image href="https://tighebrary.io/images/7am-cover-artwork.png"/>
+      <itunes:duration>00:20:29</itunes:duration>
+    </item>
 
     <item>
       <title>Left Right Out calls Emily</title>
-      <description>Here's a clip from the #1 election podcast we made for Spotify. I've clipped a sequence from our final episode, which was a call-in episode: I arranged for some of our superfans to be available to take calls from the hosts, Elfy and Justine, to celebrate the show's run. This clip is heavily edited, although I hope you can't tell, and it's the best way I have of conveying the impact and popularity of a show we made from scratch.</description>
+      <description>Left Right Out was the #1 election podcast that we made for Spotify - I was the co-creator and executive producer, and Justine and Elfy were the wonderful hosts. For our final episode, I arranged for some of our superfans to be available to take calls from Justine and Elfy to reflect on the show. This clip is from that episode, when we called Emily: the call was heavily edited, although I hope you can't tell, and it's the best way I have of conveying the impact and popularity of a show we made from scratch.</description>
       <pubDate>Wed, 09 Oct 2024 19:00:00 GMT</pubDate>
       <enclosure url="https://tighebrary.io/audio/Left-Right-Out-calls-Emily.mp3" length="7239744" type="audio/mpeg" />
       <guid>b99e0ef0-3e02-4dc3-a8dd-483d40f8ffb0</guid>
+      <itunes:image href="https://tighebrary.io/images/LRO_CoverTemplate_ASpotifyExclusive_3000x3000.jpg"/>
       <itunes:duration>00:05:01</itunes:duration>
+    </item>
+
+    <item>
+      <title>Can you have a casino without the crime?</title>
+      <description>From the 7am podcast (Australia's The Daily), this is a short sequence from an episode about allegations of illegal junkets operating within Sydney's Star Casino. Ruby Jones is the host and Rick Morton is the reporter, and this clip is one of those magical audio moments where two people are clearly enjoying themselves on mic. I did a lot of massaging of this segment to ensure that our Ocean's Eleven-style soundtrack lined up perfectly with Rick's words.</description>
+      <pubDate>Wed, 09 Oct 2024 20:00:00 GMT</pubDate>
+      <enclosure url="https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3" length="3670848" type="audio/mpeg" />
+      <guid>a550543b-62db-46ef-8115-6f0f6bde2114</guid>
+      <itunes:image href="https://tighebrary.io/images/7am-cover-artwork.png"/>
+      <itunes:duration>00:02:33</itunes:duration>
     </item>
     
   </channel>
