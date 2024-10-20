@@ -15,7 +15,9 @@
     <itunes:category text="Society &amp; Culture"> <itunes:category text="Personal Journals" /></itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:author>Alex Tighe</itunes:author>
-    <itunes:image>https://tighebrary.io/images/alex-tighe-podcast-artwork.png</itunes:image>
+    <itunes:image 
+      href="https://tighebrary.io/images/alex-tighe-podcast-artwork.png"
+    />
 
     <item>
       <title>7am: When Hindenburg crashed into Adani</title>
