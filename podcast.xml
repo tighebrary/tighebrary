@@ -3,7 +3,7 @@
   <channel>
     <title>Alex Tighe's Demo Clips</title>
     <link>https://tighebrary.io</link>
-    <description>Hi, I make audio and I code. I built this podcast feed from scratch to showcase some podcast clips I've made and am proud of. 
+    <description>Hi, I make audio and I code. I built this podcast feed from scratch to showcase some podcast clips I've made and am proud of.
     
     The audio on this feed is normalised to -18 LUFS.</description>
     <language>en</language>
@@ -47,6 +47,15 @@
       <guid isPermaLink="false">a550543b-62db-46ef-8115-6f0f6bde2114</guid>
       <itunes:image href="https://tighebrary.io/images/7am-cover-artwork.png"/>
       <itunes:duration>00:02:33</itunes:duration>
+    </item>
+
+    <item>
+      <title>2WCRFM: My Radio Debut, Age 13</title>
+      <description>I began making radio at age 13 and here is the sweet proof: an 'interview' that my friend, Nathan Chapman, did we me during one of our pre-recorded segments. We also played Shakira, Fergie, Maroon 5, and an Aussie alt-rock band called Faker. We thought we were so cool; we weren't, but at least we were cute.</description>
+      <pubDate>Fri, 25 Oct 2024 12:00:00 GMT</pubDate>
+      <enclosure url="https://tighebrary.io/audio/2wcrfm-tiny-tighe-interview-2008.mp3" length="1612224" type="audio/mpeg" />
+      <guid isPermaLink="false">6db3150e-643d-4a9b-8155-160df2818e11</guid>
+      <itunes:duration>67</itunes:duration>
     </item>
     
   </channel>
