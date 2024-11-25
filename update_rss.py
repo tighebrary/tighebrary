@@ -12,7 +12,7 @@ root = tree.getroot()
 # Create a new item element
 new_item = ET.Element('item')
 
-# Call the creat_audio.py script here
+# Call the creat_audio.py script
 # Get a new episode title, description, and audio file
 episode = create_episode.new_episode()
 

@@ -30,7 +30,6 @@ def new_episode():
             {
                 "role": "user",
                 "content": "Search the web for today's biggest news story about New York City. Based on the news story, generate a podcast episode with a title, description, and content. The content should be written as plain text, without any special formatting, and without creating a script. The content should be a clear, compelling, and succinct summary of the news story, about 100 words long. The title and description should be related to the content."
-                # "content": "Generate a podcast episode with a title, description, and content. The content should be written as plain text, without any special formatting, and without creating a script. The content should be a short and inspirational story. The title and description should be related to the content."
             }
         ]
     )

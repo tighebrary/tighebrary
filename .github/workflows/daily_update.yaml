@@ -1,0 +1,55 @@
+name: Update RSS Feed Daily
+
+on:
+  schedule:
+    # Run the workflow twice a day to handle DST shifts
+    - cron: '30 9 * * *'  # 9:30 AM UTC
+    - cron: '30 10 * * *' # 10:30 AM UTC
+
+jobs:
+  update-rss:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Calculate New York Time
+      id: check-ny-time
+      run: |
+        CURRENT_UTC=$(date -u +"%H:%M")
+
+        NY_TIME=$(TZ="America/New_York" date +"%H:%M")
+
+        echo "Current UTC time: $CURRENT_UTC"
+        echo "Current New York time: $NY_TIME"
+
+        if [ "$NY_TIME" != "05:30" ]; then
+          echo "Not 5:30 AM in New York. Exiting workflow."
+          exit 0
+        fi
+
+    - name: Install dependencies
+      if: steps.check-ny-time.conclusion == 'success'
+      run: |
+        python -m pip install --upgrade pip
+        pip install openai
+
+    - name: Run the RSS feed update script
+      if: steps.check-ny-time.conclusion == 'success'
+      run: |
+        python update_rss.py
+
+    - name: Commit and push changes
+      if: steps.check-ny-time.conclusion == 'success'
+      run: |
+        git config --local user.email "tighe.alex@protonmail.com"
+        git config --local user.name "GitHub Actions"
+        git add daily-feed.xml
+        git commit -m "Updated RSS feed with new episode on $(date '+%Y-%m-%d')"
+        git push
