@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Alex Tighe's Daily Feed</title>
+    <link>https://tighebrary.io</link>
+    <description>This is a test feed. I'm trying to create daily episodes.</description>
+    <language>en</language>
+    <image>
+      <url>https://tighebrary.io/images/alex-tighe-podcast-artwork.png</url>
+      <title>Alex Tighe's Daily Feed</title>
+      <link>https://tighebrary.io</link>
+    </image>
+    <ns0:category text="Society &amp; Culture"> <ns0:category text="Personal Journals" /></ns0:category>
+    <ns0:explicit>false</ns0:explicit>
+    <ns0:author>Alex Tighe</ns0:author>
+    <ns0:image href="https://tighebrary.io/images/alex-tighe-podcast-artwork.png" />
+
+    <item>
+      <title>New Episode Title</title><description>This is the latest episode.</description><pubDate>2024-11-03T17:41:50.580353</pubDate><enclosure url="https://your-website.github.io/podcast/new-episode.mp3" length="12345678" type="audio/mpeg" /><guid>https://your-website.github.io/podcast/new-episode.mp3</guid></item><item><title>"Beneath the Surface: The Unseen Depths of Kindness"</title><description>In this episode, we share an uplifting story that highlights the power of kindness in the most unexpected situations. Join us as we explore how a small act of goodwill can ripple through the lives of others, creating a beautiful tapestry of connection and hope.</description><pubDate>2024-11-25T15:23:57.506692</pubDate><enclosure url="https://tighebrary.io/daily-feed/audio/2wcrfm-tiny-tighe-interview-2008.mp3"><length>1612224</length><type>audio/mpeg</type></enclosure><guid>6db3150e-643d-4a9b-8155-160df2818e11</guid>
+    </item>
+
+  <item><title>Rising from the Ashes: The Journey of Hope</title><description>In this inspiring episode, we share the remarkable story of Mia, a young woman whose life took an unexpected turn due to a devastating fire. Through resilience and the power of community, Mia transforms her tragedy into a source of hope and motivation for others. Join us as we explore the beauty of human strength and the light that can emerge from even the darkest places.</description><pubDate>2024-11-25T15:37:09.506805</pubDate><enclosure url="https://tighebrary.io/daily-feed/audio/7am-star-casino-rick-music-clip.mp3" length="3670848" type="audio/mpeg" /><guid>https://tighebrary.io/daily-feed/audio/7am-star-casino-rick-music-clip.mp3</guid></item></channel>
+</rss>
