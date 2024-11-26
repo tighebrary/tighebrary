@@ -41,18 +41,16 @@ def new_episode():
     description = response[1].replace("Description: ", "")
     audio_content = "\n".join(response[2:]).replace("Content: ", "")
 
-    # # Generate the audio file
-    # speech_response = client.audio.speech.create(
-    #     model="tts-1",
-    #     voice="alloy",
-    #     input=audio_content
-    # )
+    # Generate the audio file
+    speech_response = client.audio.speech.create(
+        model="tts-1",
+        voice="alloy",
+        input=audio_content
+    )
 
     date = datetime.now(tz=None).isoformat()
     speech_file_path = Path(__file__).parent / "audio" / "gpt" / f"{date}.mp3"
-    # speech_response.stream_to_file(speech_file_path)
-
-    speech_file_path = "audio/7am-star-casino-rick-music-clip.mp3" # TODO DELETE
+    speech_response.stream_to_file(speech_file_path)
 
     # Create the episode
     episode = Episode(title, description, speech_file_path)
@@ -60,5 +58,4 @@ def new_episode():
     return episode
 
 new_episode()
-
 
