@@ -19,10 +19,11 @@ class Episode:
         return os.path.getsize(audio_file)
 
 def new_episode():
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        raise ValueError("OPENAI_API_KEY environment variable not set")
-    client = OpenAI(api_key=api_key)
+    # api_key = os.getenv("OPENAI_API_KEY") # Local environment version
+    openai_api_key = os.environ.get('OPENAI_API_KEY')
+    if not openai_api_key:
+        raise ValueError("OPENAI_API_KEY environment variable not found")
+    client = OpenAI(api_key=openai_api_key)
 
     try:
         # Generate all elements in one request

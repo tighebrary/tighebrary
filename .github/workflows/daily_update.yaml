@@ -42,6 +42,8 @@ jobs:
 
     - name: Run the RSS feed update script
       if: steps.check-ny-time.conclusion == 'success'
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
         python update_rss.py
 
