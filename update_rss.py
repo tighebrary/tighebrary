@@ -3,7 +3,7 @@ from datetime import datetime
 import create_episode
 
 # Path to your RSS feed file
-rss_file = "daily-feed.xml"
+rss_file = "daily.xml"
 
 # Load the RSS file
 tree = ET.parse(rss_file)
