@@ -53,5 +53,6 @@ jobs:
         git config --local user.email "tighe.alex@protonmail.com"
         git config --local user.name "GitHub Actions"
         git add daily.xml
+        git add audio/gpt/*.mp3
         git commit -m "Updated RSS feed with new episode on $(date '+%Y-%m-%d')"
         git push
