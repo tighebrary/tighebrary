@@ -52,6 +52,6 @@ jobs:
       run: |
         git config --local user.email "tighe.alex@protonmail.com"
         git config --local user.name "GitHub Actions"
-        git add daily-feed.xml
+        git add daily.xml
         git commit -m "Updated RSS feed with new episode on $(date '+%Y-%m-%d')"
         git push
