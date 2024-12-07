@@ -10,25 +10,68 @@
       <title>Alex Tighe's Daily Feed</title>
       <link>https://tighebrary.io</link>
     </image>
-    <ns0:category text="Society &amp; Culture"> <ns0:category text="Personal Journals" /></ns0:category>
+    <ns0:category text="Society &amp; Culture">
+      <ns0:category text="Personal Journals" />
+    </ns0:category>
     <ns0:explicit>false</ns0:explicit>
     <ns0:author>Alex Tighe</ns0:author>
     <ns0:image href="https://tighebrary.io/images/alex-tighe-podcast-artwork.png" />
 
     <item>
-      <title>Rising from the Ashes: The Journey of Hope</title><description>In this inspiring episode, we share the remarkable story of Mia, a young woman whose life took an unexpected turn due to a devastating fire. Through resilience and the power of community, Mia transforms her tragedy into a source of hope and motivation for others. Join us as we explore the beauty of human strength and the light that can emerge from even the darkest places.</description><pubDate>2024-11-25T15:37:09.506805</pubDate><enclosure url="https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3" length="3670848" type="audio/mpeg" /><guid>https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3</guid>
+      <title>Rising from the Ashes: The Journey of Hope</title>
+      <description>In this inspiring episode, we share the remarkable story of Mia, a young woman whose life took an unexpected turn due to a devastating fire. Through resilience and the power of community, Mia transforms her tragedy into a source of hope and motivation for others. Join us as we explore the beauty of human strength and the light that can emerge from even the darkest places.</description>
+      <pubDate>2024-11-25T15:37:09.506805</pubDate>
+      <enclosure url="https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3" length="3670848" type="audio/mpeg" />
+      <guid>b2c5edd1-575e-47fe-a785-7ffbe82f543f</guid>
     </item>
   
     <item>
-      <title>NYC in Flux: Navigating the Impact of Rising Rents</title><description>In today's episode, we delve into the pressing issue of rising rent prices in New York City. As gentrification continues to shape neighborhoods, many residents find themselves struggling to keep up with skyrocketing costs. We explore the factors contributing to this crisis, hear from affected tenants, and discuss potential solutions with housing advocates and experts.</description><pubDate>2024-11-25T17:48:16.037060</pubDate><enclosure url="https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3" length="3670848" type="audio/mpeg" /><guid>https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3</guid>
+      <title>NYC in Flux: Navigating the Impact of Rising Rents</title>
+      <description>In today's episode, we delve into the pressing issue of rising rent prices in New York City. As gentrification continues to shape neighborhoods, many residents find themselves struggling to keep up with skyrocketing costs. We explore the factors contributing to this crisis, hear from affected tenants, and discuss potential solutions with housing advocates and experts.</description>
+      <pubDate>2024-11-25T17:48:16.037060</pubDate>
+      <enclosure url="https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3" length="3670848" type="audio/mpeg" />
+      <guid>5dbfe105-3098-4586-bb8b-b441dd08e42d</guid>
     </item>
+</rss>
     
-  <item>
-    <title>**Marvels of Manhattan: New York City Unveils New Transit Plans**</title><description>**In today's episode, we dive into the latest news from New York City as the city unveils an ambitious plan to enhance its public transit system. We explore what this means for commuters and the future of urban mobility.**</description><pubDate>2024-11-25T17:55:54.937480</pubDate><enclosure url="https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3" length="3670848" type="audio/mpeg" /><guid>https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3</guid>
-  </item>
+    <item>
+      <title>Marvels of Manhattan: New York City Unveils New Transit Plans</title>
+      <description>In today's episode, we dive into the latest news from New York City as the city unveils an ambitious plan to enhance its public transit system. We explore what this means for commuters and the future of urban mobility.</description>
+      <pubDate>2024-11-25T17:55:54.937480</pubDate>
+      <enclosure url="https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3" length="3670848" type="audio/mpeg" />
+      <guid>4eaf3ac4-f897-45a4-8ed2-991a640c2f96</guid>
+    </item>
 
-  <item>
-    <title>"City Reflections: New York's Climate Resilience Initiatives"</title><description>In today's episode, we dive into New York City's latest initiatives aimed at combating climate change and enhancing urban resilience. Learn about the city's strategic plans and innovative projects designed to protect vulnerable communities from extreme weather events.</description><pubDate>2024-11-25T18:44:14.530496</pubDate><enclosure url="https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3" length="3670848" type="audio/mpeg" /><guid>https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3</guid>
-  </item>
-  <item><title>NYC’s Struggle with Rising Rent: A Crisis for Communities</title><description>In this episode, we explore the latest news surrounding New York City's escalating rent crisis, examining how its impact is reverberating through communities, businesses, and families. We delve into the causes behind the surge and discuss potential solutions being proposed by local leaders.</description><pubDate>2024-12-05T18:46:02.533311+00:00</pubDate><enclosure url="https://tighebrary.io/audio/gpt/2024-12-05T18:46:02.531834+00:00.mp3" length="798720" type="audio/mpeg" /><guid>https://tighebrary.io/audio/gpt/2024-12-05T18:46:02.531834+00:00.mp3</guid></item><item><title>"Unpacking New York City's Historic Climate Action Plan"</title><description>In today's episode, we delve into New York City's ambitious new climate action plan, which aims to significantly reduce carbon emissions and combat climate change with innovative strategies and sustainability initiatives. </description><pubDate>2024-12-07T09:35:20.803960+00:00</pubDate><enclosure url="https://tighebrary.io/audio/gpt/2024-12-07T09:35:20.802924+00:00.mp3" length="752160" type="audio/mpeg" /><guid>https://tighebrary.io/audio/gpt/2024-12-07T09:35:20.802924+00:00.mp3</guid></item><item><title>New York City Faces Housing Crisis: A Call for Solutions</title><description>In today's episode, we delve into the latest developments surrounding New York City's escalating housing crisis. With skyrocketing rents and a limited number of affordable housing units, residents are feeling the squeeze. We discuss city officials' proposed measures to combat the crisis, including increased funding for affordable housing projects and zoning reforms. We also explore the implications of these challenges on the diverse communities within the city and the potential long-term solutions that could bring relief to New Yorkers. Tune in for a deep dive into this critical issue facing the Big Apple.</description><pubDate>2024-12-07T10:42:11.293355+00:00</pubDate><enclosure url="https://tighebrary.io/audio/gpt/2024-12-07T10:42:11.292272+00:00.mp3" length="836640" type="audio/mpeg" /><guid>https://tighebrary.io/audio/gpt/2024-12-07T10:42:11.292272+00:00.mp3</guid></item></channel>
+    <item>
+      <title>City Reflections: New York's Climate Resilience Initiatives</title>
+      <description>In today's episode, we dive into New York City's latest initiatives aimed at combating climate change and enhancing urban resilience. Learn about the city's strategic plans and innovative projects designed to protect vulnerable communities from extreme weather events.</description>
+      <pubDate>2024-11-25T18:44:14.530496</pubDate>
+      <enclosure url="https://tighebrary.io/audio/7am-star-casino-rick-music-clip.mp3" length="3670848" type="audio/mpeg" />
+      <guid>1bb070ea-985c-4f5d-9757-7b058995bedd</guid>
+    </item>
+
+    <item>
+      <title>NYC’s Struggle with Rising Rent: A Crisis for Communities</title>
+      <description>In this episode, we explore the latest news surrounding New York City's escalating rent crisis, examining how its impact is reverberating through communities, businesses, and families. We delve into the causes behind the surge and discuss potential solutions being proposed by local leaders.</description>
+      <pubDate>2024-12-05T18:46:02.533311+00:00</pubDate>
+      <enclosure url="https://tighebrary.io/audio/gpt/2024-12-05T18:46:02.531834+00:00.mp3" length="798720" type="audio/mpeg" />
+      <guid>https://tighebrary.io/audio/gpt/2024-12-05T18:46:02.531834+00:00.mp3</guid>
+    </item>
+
+    <item>
+      <title>Unpacking New York City's Historic Climate Action Plan</title>
+      <description>In today's episode, we delve into New York City's ambitious new climate action plan, which aims to significantly reduce carbon emissions and combat climate change with innovative strategies and sustainability initiatives.</description>
+      <pubDate>2024-12-07T09:35:20.803960+00:00</pubDate>
+      <enclosure url="https://tighebrary.io/audio/gpt/2024-12-07T09:35:20.802924+00:00.mp3" length="752160" type="audio/mpeg" />
+      <guid>https://tighebrary.io/audio/gpt/2024-12-07T09:35:20.802924+00:00.mp3</guid>
+    </item>
+
+    <item>
+      <title>New York City Faces Housing Crisis: A Call for Solutions</title>
+      <description>In today's episode, we delve into the latest developments surrounding New York City's escalating housing crisis. With skyrocketing rents and a limited number of affordable housing units, residents are feeling the squeeze. We discuss city officials' proposed measures to combat the crisis, including increased funding for affordable housing projects and zoning reforms. We also explore the implications of these challenges on the diverse communities within the city and the potential long-term solutions that could bring relief to New Yorkers. Tune in for a deep dive into this critical issue facing the Big Apple.</description>
+      <pubDate>2024-12-07T10:42:11.293355+00:00</pubDate>
+      <enclosure url="https://tighebrary.io/audio/gpt/2024-12-07T10:42:11.292272+00:00.mp3" length="836640" type="audio/mpeg" />
+      <guid>https://tighebrary.io/audio/gpt/2024-12-07T10:42:11.292272+00:00.mp3</guid>
+    </item>
+  </channel>
 </rss>
