@@ -1,10 +1,9 @@
 name: Update RSS Feed Daily
 
-on:
-  schedule:
-    # Run the workflow twice a day to handle DST shifts
-    - cron: '30 9 * * *'  # 9:30 AM UTC
-    # - cron: '30 10 * * *' # 10:30 AM UTC
+# on:
+#   schedule:
+#     # Run the workflow (not accounting for Daylight Saving Time)
+#     - cron: '30 9 * * *'  # 9:30 AM UTC = 5:30 AM New York Time
 
 jobs:
   update-rss:
