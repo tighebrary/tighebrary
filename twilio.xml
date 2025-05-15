@@ -1,0 +1,5 @@
+<Response>
+<Say voice="man">Hi, something seems to have gone wrong with this call.</Say>
+<Pause length="1"/>
+<Say voice="man">We'll work on fixing it. Have a lovely day.</Say>
+</Response>
