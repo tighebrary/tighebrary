@@ -1,0 +1,41 @@
+name: Deploy Svelte App to /the-button/
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-copy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        working-directory: ./my-svelte-app
+        run: npm install
+
+      - name: Build Svelte app
+        working-directory: ./my-svelte-app
+        run: npm run build
+
+      - name: Copy build output to top-level /the-button/
+        run: |
+          rm -rf svelte-app-old
+          mkdir -p the-button
+          cp -r my-svelte-app/dist/* the-button/
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add the-button
+          git commit -m "Update built Svelte app" || echo "No changes to commit"
+          git push
