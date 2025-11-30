@@ -28,7 +28,7 @@ jobs:
 
       - name: Copy build output to top-level /the-button/
         run: |
-          rm -rf svelte-app-old
+          rm -rf the-button
           mkdir -p the-button
           cp -r my-svelte-app/dist/* the-button/
 
