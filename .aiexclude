@@ -1,0 +1,12 @@
+# Ignore big folders
+node_modules/
+dist/
+build/
+.git/
+venv/
+*.log
+audio/
+
+# Exclude large data files
+*.json
+*.csv
