@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.centered-content {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.image-container img {
+  height: 100%; /* Make the image's height fill the container */
+  width: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop the image to fill the container */
+}
+
+.text-container {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 2.5px; /* Add some padding for better visibility */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.social-icon-link {
+  padding: 10px;
+  color: grey;
+  transition: color 0.3s ease;
+}
+
+.social-icon-link:hover {
+  color: black;
+}
+
+footer {
+  padding-bottom: 50px;
+  color: grey;
+}
