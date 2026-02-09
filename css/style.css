@@ -1,17 +1,17 @@
 body, html {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 .centered-content {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-    padding: 20px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  padding: 20px;
 }
 
 .image-container img {
@@ -21,8 +21,8 @@ body, html {
 }
 
 .text-container {
-    max-width: 100%;
-    word-wrap: break-word;
+  max-width: 100%;
+  word-wrap: break-word;
 }
 
 a {
